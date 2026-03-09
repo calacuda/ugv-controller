@@ -1,0 +1,9 @@
+webrtc:
+  listen: "localhost:8555" # external TCP/UDP port
+
+rtsp:
+  listen: "localhost:8554"
+
+streams:
+  # main: ffmpeg:device?video=/dev/video0&input_format=mjpeg&video_size=1920x1080
+  main: v4l2:device?video=/dev/video0&input_format=mjpeg&video_size=1280x720&framerate=30

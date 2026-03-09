@@ -1,9 +1,8 @@
 use crate::server::server;
 
 pub mod server;
-pub mod signal;
 
-fn main() -> anyhow::Result<()> {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     env_logger::init();
     server()
 }

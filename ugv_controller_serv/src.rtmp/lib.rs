@@ -1,7 +1,6 @@
 use pyo3::prelude::*;
 
 pub mod server;
-pub mod signal;
 
 /// A Python module implemented in Rust.
 #[pymodule]
