@@ -9,5 +9,8 @@ name = "ugv_controller_serv"
 crate-type = ["cdylib"]
 
 [dependencies]
+env_logger = "0.11.9"
+log = { version = "0.4.29", features = ["std"] }
 pyo3 = "0.28.2"
 rtmp-rs = "0.5.0"
+tokio = { version = "1.50.0", features = ["full"] }
