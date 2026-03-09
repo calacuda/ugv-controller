@@ -9,4 +9,5 @@ name = "ugv_controller_serv"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.27.0"
+pyo3 = "0.28.2"
+rtmp-rs = "0.5.0"
